@@ -617,4 +617,6 @@ tab-content #menu1 .third-pane .details {
 .nav>li>a:hover {
     background: #002036;
 }
-.nav-pills 
+.ul span {
+    color: #5b8baa;
+}
