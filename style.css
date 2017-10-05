@@ -457,9 +457,9 @@ input[type=file] {
 }
 
 .tab-content #menu1 {
-    width: 28%;
+    width: 24%;
     border-right: 0px solid #ddd;
-    position: absolute;
+    position: fixed;
     top: 0;
     height: 100vh;
     background: #002f4d;
@@ -591,12 +591,14 @@ tab-content #menu1 .third-pane .details {
     position: absolute;
     top: 12%;
 }
+
 @media (min-width:1650px) {
     .tab-content #menu1 .ul {
         position: absolute;
         top: 7.2%;
     }
 }
+
 @media (max-width:1280px) {
     .tab-content #menu1 .ul {
         position: absolute;
@@ -612,13 +614,29 @@ tab-content #menu1 .third-pane .details {
     border-radius: 1px;
 }
 
-.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:focus,
+.nav-pills > li.active > a:hover {
     color: #fff;
     background: #002036;
 }
-.nav>li>a:hover {
+
+.nav > li > a:hover {
     background: #002036;
 }
+
 .ul span {
     color: #5b8baa;
+}
+
+.tab-content .footer {
+    position: fixed;
+    bottom: 1%;
+    left: 18%;
+
+}
+
+.tab-content .footer .foot {
+    border-radius: 2px;
+    background-color: #39af1c;
 }
