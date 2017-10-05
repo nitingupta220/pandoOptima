@@ -462,7 +462,7 @@ input[type=file] {
     position: fixed;
     top: 0;
     height: 100vh;
-    background: #002f4d;
+    background: #022b47;
 }
 
 .tab-content #menu1 .container {
@@ -526,7 +526,7 @@ tab-content #menu1 .third-pane .details {
 }
 
 .tab-content #menu1 .third-pane .details .col-md-2 {
-    width: 15%;
+    width: 14%;
 }
 
 @media (max-width:1280px) {
@@ -540,6 +540,8 @@ tab-content #menu1 .third-pane .details {
 
 .tab-content #menu1 .third-pane .card {
     width: 118%;
+    height: 47vh;
+    overflow-y: scroll;
 }
 
 @media (max-width:1280px) {
@@ -631,8 +633,12 @@ tab-content #menu1 .third-pane .details {
 
 .tab-content .footer {
     position: fixed;
-    bottom: 1%;
-    left: 18%;
+    bottom: 0%;
+    left: 39%;
+    padding-bottom: 10px;
+    background: white;
+    width: 61%;
+    padding-top: 10px;
 
 }
 
