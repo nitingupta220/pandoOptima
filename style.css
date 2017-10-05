@@ -62,6 +62,8 @@ body {
 
 .tab .img {
     margin-bottom: 30px;
+    padding-top: 10%;
+    padding-left: 25%;
 }
 
 .tab .left .nav-pills > li.active > a {
